@@ -1,0 +1,36 @@
+{
+  "name": "Ultima",
+  "version": "0.1.0",
+  "description": "Ultima, the ULTIMATE discord bot !",
+  "main": "index.js",
+  "repository": "https://github.com/ThronikDev/Ultima.git",
+  "author": "Thronik <thronikdev@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build:bulp": "gulp build",
+    "watch:gulp": "gulp watch",
+    "serve:gulp": "gulp serve",
+    "start:gulp": "gulp start",
+    "serve": "npm run serve:gulp -s",
+    "watch": "npm run watch:gulp -s",
+    "build": "npm run build:gulp -s",
+    "start": "npm run start:gulp -s"
+  },
+  "devDependencies": {
+    "@types/node": "^13.1.8",
+    "@types/ws": "^7.2.0",
+    "@types/yamljs": "^0.2.30",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-nodemon": "^2.4.2",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "nodemon": "^2.0.2",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "yamljs": "^0.3.0",
+    "dotenv": "^8.2.0"
+  }
+}
